@@ -15,6 +15,28 @@ l1{
   position: absolute;
   margin-top: 160px;
   text-align: center;
+  text-decoration: none!important;
+}
 
+.noDecoration, a:link, a:visited{
+  text-decoration: none;
+}
 
+nav{
+  background:#555;
+}
+
+nav ul li{
+  background:#999;
+  color:white;
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+
+}
+
+nav ul li a{
+  color: white;
+  text-align: center;
 }
